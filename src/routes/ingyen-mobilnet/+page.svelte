@@ -16,7 +16,7 @@
             <li>A leírtak <strong>kizárólag oktatási célból</strong> lettek megosztva</li>
             <li>Az alábbiakban leírt módszer nagy valószínűséggel a SIM szolgáltatód <strong>ÁSZF-e ellen van</strong></li>
             <li>Ha a telefonod támogatja a <strong>Dual SIM-et</strong>, ajánlott egy új, olcsó SIM kártyát használni</li>
-            <li>A SIM aktiválásához <strong>minimum 14 éves életkor szükséges</strong></li>
+            <li>A SIM aktiválásához <strong>minimum 14 éves életkor szükséges, illetve csak is feltöltő kártyás SIM-mel fog menni.</strong></li>
           </ul>
       </div>
 
@@ -77,7 +77,7 @@
         </div>
         
         <div class="bg-yellow-900/30 border-l-4 border-yellow-500 p-3 rounded-r-md mt-3">
-          <p class="text-yellow-300">⚠️ Sajnos van olyanra esély hogy nem fognak menni az oldalak, tehát ez személytől is függ hogy megy vagy nem.</p>
+          <p class="text-yellow-300">⚠️ Ez előfizetéses kártyával nem fok menni tehát mindenképp kelleni fog egy feltöltőkártyás SIM. Sajnos van olyanra esély hogy nem fognak menni az oldalak, tehát ez személytől is függ hogy megy vagy nem.</p>
         </div>
       </div>
       
