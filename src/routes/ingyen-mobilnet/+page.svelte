@@ -124,8 +124,6 @@
         </div>
       {:else}
         <p>Az SSH egy másik fajta szerver, amire HTTP Injector appal rá tudsz csatlakozni. Ez lehet hogy biztonságosabb bár itt meglehet hogy nem megy minden alkalmazás/oldal vele.</p>
-        <ul class="list-disc list-inside space-y-2 pl-6 my-3">
-        </ul>
         <p>Szintén ugyan ezen az oldalakon tudsz SSH szervert is generálni:</p>
         <ul class="list-disc list-inside pl-6 my-2">
           <li><a href="https://sshs8.com/" class="text-blue-400 underline">sshs8.com</a></li>
@@ -163,11 +161,6 @@
           <a href="https://apps.apple.com/us/app/http-injector/id1659992827" class="text-blue-400 underline">HTTP Injector</a>
         </div>
       </div>
-      <div class="flex flex-col md:flex-row md:space-x-4 space-y-3 md:space-y-0 my-3">
-      </div>
-      <div class="bg-yellow-900/30 border-l-4 border-yellow-500 p-3 rounded-r-md mt-4">
-
-      </div>
     </div>
 
     <!-- Beállítások -->
@@ -202,7 +195,7 @@
           <li>Majd az ez alatti mezőbe ird be az egyik Zero Rated oldalt, mint például "www.yettel.hu"</li>
         </ol>
       </div>
-
+    </div>
 
     <!-- Csatlakozás -->
     <div id="connection" class="bg-gray-800 rounded-lg p-4 mb-6 shadow-md scroll-mt-20">
@@ -325,9 +318,9 @@
               <li>Újraindítani az appot</li>
               <li>Másik szervert kipróbálni</li>
 							<li>Ellenőrizd hogy biztosan jó SIMet választottál ki mobilnethez</li>
+              <li>Az ingyenes szerver generátorok általába csak 1 hetes szervereket adnak, tehát 1 hét útán kell újat generálj. Vpnjantit-nál tudsz venni szervert akár 1 évre, viszont nem biztos hogy mindig stabilak lesznek a szerverei.</li>
             </ol>
           </div>
-						<li>Az ingyenes szerver generátorok általába csak 1 hetes szervereket adnak, tehát 1 hét útán kell újat generálj. Vpnjantit-nál tudsz venni szervert akár 1 évre, viszont nem biztos hogy mindig stabilak lesznek a szerverei.</li>
           {/if}
         </div>
         <div class="bg-gray-700 p-3 rounded cursor-pointer hover:bg-gray-650 mt-3" on:click={() => toggleTroubleshooting('partialfail')}>
@@ -338,10 +331,6 @@
           {#if expandedTroubleshooting === 'partialfail'}
           <div class="mt-3 border-t border-gray-600 pt-3 text-sm">
             <p>Egy szerveren keresztül csatlakozol a netre ezért ez olyan, mint egy VPN. Amilyen szervert generáltál az oldalon olyan IP címed lesz. Példáúl ha az e-krétára próbálsz belépni német IP címmel akkor ez nem fog menni mivel a kréta tiltja a külföldi címeket</p>
-
-						
-
-
           </div>
           {/if}
         </div>
